@@ -1,0 +1,121 @@
+*{margin:0;
+padding:0;}
+.clearfix::after{content:"";
+clear:both ;
+display:block;}
+.fixed-width{width:700px;
+margin:auto;}
+.text-center{text-align:center ;}
+body{width:700px;
+height:600px;}
+.header{background-color:#3498db;}
+.logo{float:left;
+width:30%;}
+.logo img{width:160px;
+height:auto;}
+.menu{float:right;
+width:70%;}
+.menu ul{text-align:right;}
+.menu ul li{display:inline-block ;
+margin-left:40px;
+margin-top:15px;}
+.menu ul li a{text-decoration:none;
+color:#ddd;
+font-size:17px;
+display:block;}
+.menu ul li a:hover{background-color:dodgerblue;}
+.banner{background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQau9xNSn3OMhPTGocBqYXmQVOC1UCdtOYTkA&usqp=CAU)no-repeat center ;
+box-size:cover;
+padding:150px 0;}
+.text{text-align:center ;}
+.text h1{font-size:40px;
+margin-top:30px;
+background-color:rgba(253, 121, 168,.8);
+max-width:400px;
+margin:auto;
+padding:10px 0;
+color:#fff;
+border-radius:5px;}
+.about{margin-top:40px;
+background-color:rgba(254, 202, 87,1.0);
+padding:50px 0;}
+.about h2{font-size:40px;
+margin-bottom:20px;
+color:#fff;}
+.about p{font-size:20px;
+color:#fff;
+margin:auto;
+max-width:300px;}
+.service{background-color:#f9f9f9;
+padding:40px;
+max-width:700px;}
+.service-item{
+    float:left;
+    width:31.3%;
+    border:1px solid #ddd;
+    padding:25px 10px;
+    margin-left:1%;
+    box-sizing:border-box ;
+}
+.service-item span{
+display:block;
+width:40px;
+height:40px;
+background:dodgerblue;
+color:#fff;
+margin:auto;
+line-height:40px;
+font-size:40px;
+border-radius:20px 0 20px 0;
+}
+.blog-container{
+    padding-top:50px;
+    padding-bottom:40px;
+}
+.blog-contained{
+    float:left;
+    width:70%;
+}
+.blog-contained img{width:150px;
+height:auto;
+float:left;
+margin-right:10px;}
+.notice{float:right;
+width:30%;
+}
+.notice h2{
+    font-size:30px;
+    border:1px solid #ddd;
+    margin-bottom:10px;
+    padding-bottom:5px;
+}
+.notice ul{list-style:none;}
+.notice ul li{
+font-size:20px;
+border:1px solid #ddd;
+border-radius:5px;
+margin-bottom:8px;
+background:#fafafa;
+}
+.footer{background-color:#2c3e50;
+padding:25px;
+}
+.footer-left{float:left;
+width:40%;}
+.footer-left p{color:#fff;
+font-size:10px;}
+.footer-right{
+    float:right;
+    width:60%;
+}
+.social{
+
+}
+.social li{
+    display:inline-block ;
+}
+.social li a{
+    font-size:20px;
+    color:#fff;
+    margin-right:50px;
+}
